@@ -5,16 +5,15 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+    <img alt="Vue logo" class="logo" src="@/assets/logosync.svg" width="150" height="100" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/description">DESCRIPTION</RouterLink>
+        <RouterLink to="/features">FEATURES</RouterLink>
+        <RouterLink to="/screens">SCREENS</RouterLink>
+        <RouterLink to="/extra">EXTRA</RouterLink>
       </nav>
-    </div>
+    
   </header>
 
   <RouterView />
@@ -23,18 +22,18 @@ import HelloWorld from './components/HelloWorld.vue'
 <style scoped>
 header {
   line-height: 1.5;
-  max-height: 100vh;
+  max-height: 15vh;
 }
 
 .logo {
-  display: block;
-  margin: 0 auto 2rem;
+  padding-left: 40px;
+  margin-top: 70px;
 }
 
 nav {
   width: 100%;
   font-size: 12px;
-  text-align: center;
+  text-align: right;
   margin-top: 2rem;
 }
 
@@ -67,19 +66,12 @@ nav a:first-of-type {
     margin: 0 2rem 0 0;
   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
   nav {
-    text-align: left;
+    text-align: right;
     margin-left: -1rem;
     font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
+    padding: 0rem 0;
+    margin-top: 0rem;
   }
 }
 </style>
