@@ -5,11 +5,5 @@
   </template>
   
   <style>
-  @media (min-width: 1024px) {
-    .screens {
-      min-height: 100vh;
-      display: flex;
-      align-items: right;
-    }
-  }
+ 
   </style>
