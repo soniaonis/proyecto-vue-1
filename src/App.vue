@@ -1,7 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import LoginButton from './components/LoginButton.vue'
-//import HelloWorld from './components/HelloWorld.vue'
 
 </script>
 

@@ -1,9 +1,7 @@
+<script setup>
+import Description from '../components/Description.vue' 
+</script>
+
 <template>
-    <div class="description">
-      <h1>Organize Your Time And Start Getting Results</h1>
-    </div>
-  </template>
-  
-  <style>
- 
-  </style>
+  <Description/>
+</template>

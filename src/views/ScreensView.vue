@@ -1,9 +1,7 @@
+<script setup>
+import Screens from '../components/Screens.vue' 
+</script>
+
 <template>
-    <div class="screens">
-      <h1>User Testimonials</h1>
-    </div>
-  </template>
-  
-  <style>
- 
-  </style>
+  <Screens/>
+</template>
