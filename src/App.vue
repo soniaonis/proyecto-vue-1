@@ -1,21 +1,21 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import LoginButton from './components/LoginButton.vue'
+//import HelloWorld from './components/HelloWorld.vue'
 
 </script>
 
 <template>
   <header>
-    <img alt="Sync logo" class="logo" src="@/assets/img/logosync.svg" width="150" height="100" />
+    <img alt="logo empresa" class="logo" src="@/assets/img/logosync.svg" width="150" height="100" />
 
       <nav>
         <RouterLink to="/description">DESCRIPTION</RouterLink>
         <RouterLink to="/features">FEATURES</RouterLink>
         <RouterLink to="/screens">SCREENS</RouterLink>
         <RouterLink to="/extra">EXTRA</RouterLink>
-        <RouterLink to="/login">LOGIN</RouterLink>
-      </nav>
-    
+        <LoginButton/>
+      </nav> 
   </header>
 
   <RouterView />
@@ -26,7 +26,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(242, 246, 251) ;
 }
-  
+
 .logo {
     width: 90px;
     height: 40px;

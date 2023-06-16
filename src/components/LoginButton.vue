@@ -1,6 +1,8 @@
 <template>
     <div class="loginButton">
-        <button class="login">LOGIN</button> 
+        <button class="login">
+            <RouterLink to="/login">LOGIN</RouterLink>
+        </button> 
     </div>
 </template>
 
@@ -14,4 +16,5 @@
     padding: 7px 10px ; 
     margin-top: -30px;   
  }
+ 
 </style>
